@@ -5,7 +5,7 @@ function run() {
     
     const inputChek= JSON.parse(input);
     
-     if(Array.isArray(inputChek)){
+    if(Array.isArray(inputChek)){
         out= "true";
     }else{
         out = "fulse";
